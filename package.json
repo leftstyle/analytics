@@ -1,0 +1,27 @@
+{
+  "name": "analytics",
+  "version": "0.0.1",
+  "description": "trade site analytics",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "npx tsc ./src/main.ts",
+    "build": "npx tsc ./src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leftstyle/analytics.git"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "author": "leftstyle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leftstyle/analytics/issues"
+  },
+  "homepage": "https://github.com/leftstyle/analytics#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
